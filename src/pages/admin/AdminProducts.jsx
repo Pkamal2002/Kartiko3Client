@@ -219,7 +219,7 @@ const AdminProducts = () => {
                                         <td className="px-8 py-6">
                                             <span className="flex items-center space-x-2 text-[10px] font-black uppercase tracking-widest text-gray-500">
                                                 <Tag size={12} className="text-primary-600" />
-                                                <span>{product.category}</span>
+                                                <span>{product.category?.name || product.category}</span>
                                             </span>
                                         </td>
                                         <td className="px-8 py-6">
